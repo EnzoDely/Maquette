@@ -1,0 +1,64 @@
+.header h1 {
+    font-family: 'Caveat' , sans-serif;
+}
+.main .favoris{
+    font-family: 'Montserrat', sans-serif;
+}
+.main .hebergements{
+    font-family: 'Montserrat', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.favoris h2{
+    color: blue;
+    text-align: center;
+    font-weight: 800;
+}
+.hebergements h2{
+    color: black;
+    
+}
+.room{
+    display: flex;
+    justify-content: space-around;
+
+}
+.room a{
+    font-weight: bold;
+}
+.room a span{
+    font-weight: 500;
+}
+.room img{
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+.room i{
+    color: blue;
+}
+.hebergements img{
+    width: 250px;
+    height: 180px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+.hebergement-first-lign{
+    padding: 10px;
+    display: flex;
+    justify-content: flex-start;
+}
+.hebergement-second-lign{
+    display: flex;
+    justify-content: flex-start;
+}
+.hebergements article{
+    padding: 0 20px;
+
+}
+
+.luxe-aside img{
+    width: 300px;
+    height: 150px;
+}
