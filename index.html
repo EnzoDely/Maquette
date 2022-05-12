@@ -22,35 +22,42 @@
         <!--mon logo-->
         <div class="header">
             <h1><a href="index.html">Alt-Home</a></h1>
-            <div class="header-subtitle">
+            <div class="header-subtitle"></div>
                 <p>Trouvez une chambre près de chez vous <br /> Pour la nuit ou pour la semaine</p>
-                
-                
-                <!--Navbar-->
-                <nav class="navbar">
-                    <div class="header-top-right-button">
-                        <p>Accueil</p>
-                        <p>Hebergements</p>
-                    </div>
-                </nav>
-                <!--Fin de navbar-->
-                <p class="filtres">Filtres</p>
-                    <ul>
-                        <i class="fa-solid fa-user-group"></i>
-                        <li>Familiale</li>
-                        <i class="fa-solid fa-money-bills"></i>
-                        <li>Economique</li>
-                        <i class="fa-solid fa-dog"></i>
-                        <li>Animaux Autorisés</li>
-                    </ul>
             </div>
+            <!--fin de l'ensemble du logo-->
+            <!--ma navbar-->
+            <nav class="navbar">
+                <ul class="narvbar list">
+                    <li><a href="#">Accueil</a></li>
+                    <li><a href="#hebergements">Hebergements</a></li>
+                </ul>
+            </nav>
+            <!--fin de ma navbar-->
+            <!--début de mon button + searchbar -->
             <div class="header-search-location">
                 <i class="fa-solid fa-location-dot"></i>
                 <input type="search" name="submit-button" id="" placeholder="Ville de votre choix" value="Strasbourg, France">
-                
                 <button type="search">Rechercher</button>
             </div>
-        </div>
+            <!--fin de mon button + searchbar-->
+            <!-- mes filtres-->
+            <div class="filtres">
+                <ul class="filtres-list">
+                    <div class="familiale">
+                        <i class="fa-solid fa-people-group"></i>
+                        <li>Familiale</li>
+                    </div>
+                    <div class="economique">
+                        <i class="fa-solid fa-money-bills"></i>
+                        <li>Economique</li>
+                    </div>
+                    <div class="animaux">
+                        <i class="fa-solid fa-dog"></i>
+                        <li>Animaux Autorisés</li>
+                    </div>
+                </ul>
+            </div>
     </header>
     <!--Fin de l'header-->
     <!-- début de ma première section "Les Favoris"-->
@@ -101,7 +108,7 @@
                     </article>
                 </div>  
         </section>
-        <section class="hebergements">
+        <section class="hebergements" id="hebergements">
             <h2>Nos hébergements</h2>
             <div class="hebergement-first-lign">
                 <article class="first-hebergement">
