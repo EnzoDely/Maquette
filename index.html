@@ -4,12 +4,15 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="description" content="Alt-Home - Trouvez une chambre près de chez vous - Pour la nuit ou pour la semaine" />
+    <meta name="description"
+        content="Alt-Home - Trouvez une chambre près de chez vous - Pour la nuit ou pour la semaine" />
     <meta name="robots" content="Index, follow">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/5c113c2881.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
@@ -20,174 +23,200 @@
     <!--Mon header-->
     <header>
         <!--mon logo-->
+    <div class="header-responsive">
         <div class="header">
             <h1><a href="index.html">Alt-Home</a></h1>
             <div class="header-subtitle"></div>
-                <p>Trouvez une chambre près de chez vous <br /> Pour la nuit ou pour la semaine</p>
-            </div>
-            <!--fin de l'ensemble du logo-->
-            <!--ma navbar-->
-            <nav class="navbar">
-                <ul class="navbar-list">
+            <p>Trouvez une chambre près de chez vous <br /> Pour la nuit ou pour la semaine</p>
+        </div>
+        <!--fin de l'ensemble du logo-->
+        <!--ma navbar-->
+        <nav class="navbar">
+            <div class="navbar-list">
+                <ul>
                     <li><a href="#">Accueil</a></li>
-                    <li><a href="#hebergements">Hebergements</a></li>
+                    <li class="nav-heb"><a href="#hebergements">Hebergements</a></li>
                 </ul>
-            </nav>
-            <!--fin de ma navbar-->
+            </div>
+        </nav>
+    </div>
+        <!--fin de ma navbar-->
+        <!-- search-filtre , search button + filtre-->
+        <div class="search-filtre">
             <!--début de mon button + searchbar -->
             <div class="header-search-location">
                 <i class="fa-solid fa-location-dot"></i>
-                <input type="search" name="submit-button" id="" placeholder="Ville de votre choix" value="Strasbourg, France">
-                <button type="search">Rechercher</button>
+                <input type="search" name="submit-button" id="" placeholder="Ville de votre choix"
+                    value="Strasbourg, France">
+                    <button type="submit">Rechercher</button>
             </div>
+
             <!--fin de mon button + searchbar-->
             <!-- mes filtres-->
             <div class="filtres">
-                <ul class="filtres-list">
-                    <div class="familiale">
-                        <i class="fa-solid fa-people-group"></i>
-                        <li>Familiale</li>
-                    </div>
-                    <div class="economique">
-                        <i class="fa-solid fa-money-bills"></i>
-                        <li>Economique</li>
-                    </div>
-                    <div class="animaux">
-                        <i class="fa-solid fa-dog"></i>
-                        <li>Animaux Autorisés</li>
-                    </div>
-                </ul>
+                <p>Filtres</p>
+                <div class="filtre">
+                    <i class="fa-solid fa-people-group"></i>
+                    <span>Familiale</span>
+                </div>
+                <div class="filtre">
+                    <i class="fa-solid fa-money-bills"></i>
+                    <span>Economique</span>
+                </div>
+                <div class="filtre">
+                    <i class="fa-solid fa-dog"></i>
+                    <span>Animaux Autorisés</span>
+                </div>
             </div>
+        </div>
     </header>
     <!--Fin de l'header-->
-    <!-- début de ma première section "Les Favoris"-->
+
     <!-- div main pour mis en page principale-->
+    <!-- début de ma première section "Les Favoris"-->
     <div class="main">
         <section class="favoris">
             <h2> Les Favoris</h2>
-                <div class="room">
-                    <article class="first-room">
-                            <a href="#"><img src="image/best_bedroom_1.png" alt="chambre parentale marine">
-                                <p>Chambre parentale marine</p>
-                                <p><span>Nuit à partir de 25€</span></p>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-regular fa-star"></i>
-                            </a>
-                    </article>
-                    <article class="second-room">
-                            <a href="#"><img src="image/best_bedroom_2.png" alt="chambre cocooning">
-                                <p>Chambre cocooning</p>
-                                <p><span>Nuit à partir de 35€</span></p>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            </a>
-                    </article>
-                    <article class="third-room">
-                            <a href="#"><img src="image/best_bedroom_3.png" alt="chambre féérique">
-                                <p>Chambre féérique</p>
-                                <p><span>Nuit à partir de 30€</span></p>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-regular fa-star"></i>
-                            </a>
-                    </article>
-                    <article class="fourth-room">
-                        <a href="#"><img src="image/best_bedroom_4.png" alt="suite parentale">
-                            <p>Suite parentale</p>
-                            <p><span>Nuit à partir de 50€</span></p>
+            <div class="all-room">
+                <article class="room" id="room">
+                    <a href="#"><img src="image/best_bedroom_1.png" alt="chambre parentale marine">
+                        <p>Chambre parentale marine</p>
+                        <p><span>Nuit à partir de 25€</span></p>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </a>
+                </article>
+                <article class="room" id="room">
+                    <a href="#"><img src="image/best_bedroom_2.png" alt="chambre cocooning">
+                        <p>Chambre cocooning</p>
+                        <p><span>Nuit à partir de 35€</span></p>
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star"></i>
+                    </a>
+                </article>
+                <article class="room" id="room">
+                    <a href="#"><img src="image/best_bedroom_3.png" alt="chambre féérique">
+                        <p>Chambre féérique</p>
+                        <p><span>Nuit à partir de 30€</span></p>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </a>
+                </article>
+                <article class="room" id="room">
+                    <a href="#"><img src="image/best_bedroom_4.png" alt="suite parentale">
+                        <p>Suite parentale</p>
+                        <p><span>Nuit à partir de 50€</span></p>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </a>
+                </article>
+            </div>
+        </section>
+        <div class="heb-luxe">
+                <section class="hebergements" id="hebergements">
+                        <h2>Nos hébergements</h2>
+                    <div class="hebergement-all-lign">
+                        <div class="hebergement-first-lign">
+                            <article class="heberg">
+                        <a href="#"><img src="image/basic1.jpeg" alt="chambre boisée">
+                            <p>Chambre boisée</p>
+                            <p><span>Nuit à partir de : 20€</span></p>
                         </a>
-                    </article>
-                </div>  
-        </section>
-        <section class="hebergements" id="hebergements">
-            <h2>Nos hébergements</h2>
-            <div class="hebergement-first-lign">
-                <article class="first-hebergement">
-                    <a href="#"><img src="image/basic1.jpeg" alt="chambre boisée">
-                        <p>Chambre boisée</p>
-                        <p><span>Nuit à partir de : 20€</span></p>
-                    </a>
-                </article>
-                <article class="second-hebergement">
-                    <a href="#"><img src="image/basic2.jpeg" alt="chambre princesse">
-                        <p>Chambre princesse</p>
-                        <p><span>Nuit à partir de : 40€</span></p>
-                    </a>
-                </article>
-                <article class="third-hebergement">
-                    <a href="#"><img src="image/basic3.jpeg" alt="suite avec vue">
-                        <p>Suite avec vue</p>
-                        <p><span>Nuit à partir de :  80€</span></p>
-                    </a>
-                </article>
-            </div>
-            <div class="hebergement-second-lign">
-                <article class="fourth-hebergement">
-                    <a href="#"><img src="image/basic4.jpg" alt="chambre cozy">
-                        <p>Chambre cozy</p>
-                        <p><span>Nuit à partir de : 48€</span></p>
-                    </a>
-                </article>
-                <article class="fifth-hebergement">
-                    <a href="#"><img src="image/basic5.jpg" alt="chambre ouverte">
-                        <p>Chambre ouverture</p>
-                        <p><span>Nuit à partir de : 30€</span></p>
-                    </a>
-                </article>
-                <article class="sixth-hebergement">
-                    <a href="#"><img src="image/basic6.jpeg" alt="chambre bleue">
-                        <p>Chambre bleue</p>
-                        <p><span>Nuit à partir de : 35€</span></p>
-                    </a>
-                </article>
-
-            </div>
-        </section>
-        <aside class="luxe-aside">
+                            </article>
+                            <article class="heberg">
+                        <a href="#"><img src="image/basic2.jpeg" alt="chambre princesse">
+                            <p>Chambre princesse</p>
+                            <p><span>Nuit à partir de : 40€</span></p>
+                        </a>
+                            </article>
+                            <article class="heberg">
+                        <a href="#"><img src="image/basic3.jpeg" alt="suite avec vue">
+                            <p>Suite avec vue</p>
+                            <p><span>Nuit à partir de : 80€</span></p>
+                        </a>
+                            </article>
+                        </div>
+                        <div class="hebergement-second-lign">
+                            <article class="heberg">
+                        <a href="#"><img src="image/basic4.jpg" alt="chambre cozy">
+                            <p>Chambre cozy</p>
+                            <p><span>Nuit à partir de : 48€</span></p>
+                        </a>
+                            </article>
+                            <article class="heberg">
+                        <a href="#"><img src="image/basic5.jpg" alt="chambre ouverte">
+                            <p>Chambre ouverture</p>
+                            <p><span>Nuit à partir de : 30€</span></p>
+                        </a>
+                            </article>
+                            <article class="heberg">
+                        <a href="#"><img src="image/basic6.jpeg" alt="chambre bleue">
+                            <p>Chambre bleue</p>
+                            <p><span>Nuit à partir de : 35€</span></p>
+                        </a>
+                            </article>
+                        </div>
+                    </div>
+                </section>
+        
+            <aside class="luxe-aside">
             <h2>Luxe</h2>
-            <p><a href="#"><img src="image/luxe1.png" alt="chambre luxueuse"></a></p>
-            <p><a href="#"><img src="image/luxe2.png" alt="chambre luxueuse"></a></p>
-            <p><a href="#"><img src="image/luxe3.png" alt="chambre luxueuse"></a></p>
-        </aside>
+            <div class="luxe"><a href="#"><img src="image/luxe1.png" alt="chambre luxueuse"></a></div>
+            <div class="luxe"><a href="#"><img src="image/luxe2.png" alt="chambre luxueuse"></a></div>
+            <div class="luxe"><a href="#"><img src="image/luxe3.png" alt="chambre luxueuse"></a></div>
+            </aside>
+        </div>
     </div>
     <!--fin de la div main-->
     <!--début de mon footer-->
     <footer class="footer">
         <div class="about">
-            <h3>A propos</h3>
-                <ul class="about-list">
-                    <li><a href="#">Fonctionnement du site</a></li>
-                    <li><a href="#">Conditions générales de vente</a></li>
-                    <li><a href="#">Données et confidentialité</a></li>
-                </ul>
+            <ul class="about-list">
+                <h3>A propos</h3>
+                <li><a href="#">
+                        <p>Fonctionnement du site</p>
+                    </a></li>
+                <li><a href="#">
+                        <p>Conditions générales de vente</p>
+                    </a></li>
+                <li><a href="#">
+                        <p>Données et confidentialité</p>
+                    </a></li>
+            </ul>
         </div>
         <div class="noshebergements">
-            <h3>Nos hébergements</h3>
-                <ul class="noshebergements-list">
-                    <li><a href="#">Charte qualité</a></li>
-                </ul>
+            <ul class="noshebergements-list">
+                <h3>Nos hébergements</h3>
+                <li><a href="#">
+                        <p>Charte qualité</p>
+                    </a></li>
+            </ul>
         </div>
         <div class="support">
+            <ul class="support-list">
                 <h3> Assistance</h3>
-                    <ul class="support-list">
-                        <li><a href="#">Centre d'aide</a></li>
-                        <li><a href="#">Nous contacter</a></li>
-                    </ul>
-       </div>
+                <li><a href="#">
+                        <p>Centre d'aide</p>
+                    </a></li>
+                <li><a href="#">
+                        <p>Nous contacter</p>
+                    </a></li>
+            </ul>
+        </div>
     </footer>
     <!--Fin de mon footer-->
 </body>
+
 </html>

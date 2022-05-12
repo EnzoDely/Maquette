@@ -1,71 +1,280 @@
-html{
-    width: 1300px;
+body{
+    max-width: 1300px;
     margin: auto;
+    box-sizing: border-box;
 }
+
 .header h1 {
     font-family: 'Caveat' , sans-serif;
 }
+
+header{
+    font-family: 'Montserrat' , sans-serif;
+}
+
+footer{
+    font-family: 'Montserrat' , sans-serif;
+}
+
+.filtres{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.header-responsive{
+    display: flex;
+    justify-content: space-between;
+}
+
+.filtres span{
+    border: 2px black solid;
+    padding: 10px;
+    border-radius: 20px;
+    padding-left: 45px;
+    vertical-align: middle;
+}
+
+.filtre{
+display: flex;
+align-items: center;
+}
+
+.filtres i{
+    border: 1px blue solid;
+    font-size: 2rem;
+    border-radius: 50%;
+    padding: 5px;
+    background-color: blue;
+    color: white;
+    margin-left: 40px;
+    margin-right: -45px;
+    position: relative;
+    z-index: 5;
+}
+
+.filtres p{
+   font-weight: 700;
+}
+
+.header{
+    width:600px ;
+    height:110px ;
+}
+
+.search-filtre{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar-list ul{
+    display: flex;
+    list-style:none;
+}
+
+.navbar-list li{
+    padding: 5px 20px;
+}
+.header-search-location i{
+border: 1px lightgray solid;
+background-color: lightgray;
+border-top-left-radius: 5px;
+border-bottom-left-radius: 5px;
+
+}
+.header-search-location input{
+font-size: 15px
+}
+.header-search-location button{
+font-size: 15px;
+color: white;
+background-color: blue;
+border-top-right-radius: 5px;
+border-bottom-right-radius: 5px;
+
+}
+.nav-heb a:hover{
+    border-top: 2px blue solid;
+    color: blue;
+   padding-top: 20px;
+}
+
 .main .favoris{
     font-family: 'Montserrat', sans-serif;
 }
+
 .main .hebergements{
     font-family: 'Montserrat', sans-serif;
 }
+
 .main .luxe-aside{
     font-family: 'Montserrat', sans-serif;
 }
+
+.main p{
+    margin: 0;
+}
+
 a{
     text-decoration: none;
     color: black;
 }
+
+.room a{
+    align-items: center;    
+}
+
+.favoris{
+    margin: 30px 0 30px 0;
+    background-color: lightgrey;
+    border-radius: 25px;
+    border: 2px lightgray solid ;
+}
+
+.room{
+    background-color: white;
+    border-radius: 25px;
+    margin: 10px;
+}
+
 .favoris h2{
     color: blue;
     text-align: center;
     font-weight: 800;
+   border-radius: 25px;
 }
-.hebergements h2{
-    color: black;
-    
-}
-.room{
+
+.all-room{
     display: flex;
     justify-content: space-around;
-
+    flex-wrap: wrap;
 }
-.room a{
+
+.main a{
     font-weight: bold;
 }
-.room a span{
+
+.main a span{
     font-weight: 500;
 }
-.room img{
+
+.all-room img{
+    width: 275px;
+    height: 180px;
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
 }
-.room i{
+
+.all-room i{
     color: blue;
+    padding-left: 15px;
 }
+
+.all-room p{
+    padding-left: 15px;
+}
+
+.hebergements{
+    margin: 50px 0;
+    
+}
+.heberg{
+    border: 3px lightgray solid;
+
+}
+.hebergements h2{
+    color: black;
+    text-align: center;
+    border: 4px lightgray solid;
+    border-radius: 25px;
+    padding: 10px;
+}
+.hebergement-first-lign{
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.hebergement-second-lign{
+    padding: 10px;
+    display: flex;
+   justify-content: space-around;
+   flex-wrap: wrap;
+}
+
+.hebergement-first-lign article{
+    background-color: white;
+    border-radius: 25px;
+    margin: 10px
+}
+
+.hebergement-second-lign article{
+    background-color: white;
+    border-radius: 25px;
+    margin: 10px
+}
+
 .hebergements img{
     width: 250px;
     height: 180px;
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
 }
-.hebergement-first-lign{
-    padding: 10px;
-    display: flex;
-    justify-content: flex-start;
-}
-.hebergement-second-lign{
-    display: flex;
-    justify-content: flex-start;
-}
-.hebergements article{
-    padding: 0 20px;
 
+.heberg p{
+    text-align: left;
+    padding-left: 15px;
 }
 
+.luxe-aside{
+    display: flex;
+    flex-direction: column;
+   background-color: lightgray;
+   border-radius: 25px;
+   margin-left: 40px;
+   margin-bottom: 50px;
+   padding: 10px;
+   border: 1px white;
+   flex-wrap: wrap;
+}
+
+.luxe-aside h2{
+    font-size: 200%;
+    font-weight: 800;
+    text-align: center;
+}
+
+.luxe{
+    border: 1px white solid;
+    background-color: white;
+    border-radius: 25px;
+    margin: 10px 0;
+    flex-wrap: wrap;
+}
 .luxe-aside img{
-    width: 300px;
+    width: 350px;
     height: 150px;
+    border-radius: 25px;
+    padding: 15px 0;
+    flex-wrap: wrap;
+   
+}
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: lightgray;
+}
+
+.footer ul{
+    list-style: none;
+}
+
+@media screen and (min-width:1300px ){
+    .heb-luxe{
+        display: flex;
+}
 }
