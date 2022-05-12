@@ -1,3 +1,7 @@
+html{
+    width: 1300px;
+    margin: auto;
+}
 .header h1 {
     font-family: 'Caveat' , sans-serif;
 }
