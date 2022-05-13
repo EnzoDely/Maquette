@@ -1,4 +1,4 @@
-body{
+body {
     max-width: 1300px;
     margin: auto;
     box-sizing: border-box;
@@ -6,29 +6,29 @@ body{
 }
 
 .header h1 {
-    font-family: 'Caveat' , sans-serif;
+    font-family: 'Caveat', sans-serif;
 }
 
-header{
-    font-family: 'Montserrat' , sans-serif;
+header {
+    font-family: 'Montserrat', sans-serif;
 }
 
-footer{
-    font-family: 'Montserrat' , sans-serif;
+footer {
+    font-family: 'Montserrat', sans-serif;
 }
 
-.filtres{
+.filtres {
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
 
-.header-responsive{
+.header-responsive {
     display: flex;
     justify-content: space-between;
 }
 
-.filtres span{
+.filtres span {
     border: 2px black solid;
     padding: 10px;
     border-radius: 20px;
@@ -36,12 +36,12 @@ footer{
     vertical-align: middle;
 }
 
-.filtre{
-display: flex;
-align-items: center;
+.filtre {
+    display: flex;
+    align-items: center;
 }
 
-.filtres i{
+.filtres i {
     border: 1px rgb(0, 132, 255) solid;
     font-size: 2rem;
     border-radius: 50%;
@@ -54,40 +54,40 @@ align-items: center;
     z-index: 5;
 }
 
-.filtres p{
-   font-weight: 700;
+.filtres p {
+    font-weight: 700;
 }
 
-.filtre i:hover{
-    background-color:white ;
+.filtre i:hover {
+    background-color: white;
     color: rgb(0, 132, 255);
 }
 
-.header{
-    width:600px ;
-    height:110px ;
+.header {
+    width: 600px;
+    height: 110px;
 }
 
-.search-filtre{
+.search-filtre {
     display: flex;
     text-align: center;
     align-items: center;
     justify-content: space-between;
 }
 
-.navbar-list ul{
+.navbar-list ul {
     display: flex;
-    list-style:none;
+    list-style: none;
 }
 
-.navbar-list li{
+.navbar-list li {
     padding: 5px 20px;
 }
 
-.header-search-location i{
+.header-search-location i {
     border: 1px grey solid;
     font-size: 18px;
-    padding: 3px 10px 2px 10px ;
+    padding: 3px 10px 2px 10px;
     background-color: lightgray;
     color: black;
     vertical-align: middle;
@@ -95,7 +95,7 @@ align-items: center;
     border-bottom-left-radius: 25%;
 }
 
-.header-search-location button{
+.header-search-location button {
     border: 1px rgb(0, 132, 255)solid;
     font-size: 15px;
     background-color: rgb(0, 132, 255);
@@ -105,111 +105,112 @@ align-items: center;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
 }
-.header-search-location input{
+
+.header-search-location input {
     font-family: 'Montserrat', sans-serif;
     font-size: 15px;
     padding: 0 0 2px 0;
 }
 
-.nav-heb a:hover{
+.nav-heb a:hover {
     border-top: 2px rgb(0, 132, 255)solid;
     color: rgb(0, 132, 255);
-   padding-top: 20px;
+    padding-top: 20px;
 }
 
-.main .favoris{
+.main .favoris {
     font-family: 'Montserrat', sans-serif;
 }
 
-.main .hebergements{
+.main .hebergements {
     font-family: 'Montserrat', sans-serif;
 }
 
-.main .luxe-aside{
+.main .luxe-aside {
     font-family: 'Montserrat', sans-serif;
 }
 
-.main p{
+.main p {
     margin: 0;
 }
 
-a{
+a {
     text-decoration: none;
     color: black;
 }
 
-.favoris h2{
+.favoris h2 {
     color: rgb(0, 132, 255);
     text-align: center;
     font-weight: 800;
-   border-radius: 25px;
+    border-radius: 25px;
 }
 
-.favoris{
+.favoris {
     margin: 30px 0 30px 0;
     background-color: lightgrey;
     border-radius: 25px;
-    border: 2px lightgray solid ;
+    border: 2px lightgray solid;
 }
 
-.room a{
-    align-items: center;    
+.room a {
+    align-items: center;
 }
 
-.room{
+.room {
     background-color: white;
     border-radius: 25px;
     margin: 10px;
 }
 
-.favoris article:hover{
+.favoris article:hover {
     transition: all 750ms;
     transition-timing-function: ease-in-out;
     transform: scale(1.3);
     box-shadow: 5px 5px 5px black;
 }
 
-.all-room{
+.all-room {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
 }
 
-.main a{
+.main a {
     font-weight: bold;
 }
 
-.main a span{
+.main a span {
     font-weight: 500;
 }
 
-.all-room img{
+.all-room img {
     width: 275px;
     height: 180px;
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
 }
 
-.all-room i{
+.all-room i {
     color: rgb(0, 132, 255);
     padding-left: 15px;
 }
 
-.all-room p{
+.all-room p {
     padding-left: 15px;
 }
 
-.hebergements{
+.hebergements {
     margin: 50px 0;
-    
+
 }
 
-.heberg{
+.heberg {
     border: 3px lightgray solid;
 
 }
 
-.hebergements h2{
+.hebergements h2 {
     color: black;
     text-align: center;
     border: 4px lightgray solid;
@@ -217,154 +218,169 @@ a{
     padding: 10px;
 }
 
-.hebergement-first-lign{
+.hebergement-first-lign {
     padding: 10px;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
 }
 
-.hebergement-second-lign{
+.hebergement-second-lign {
     padding: 10px;
     display: flex;
-   justify-content: space-around;
-   flex-wrap: wrap;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 
-.hebergement-first-lign article{
+.hebergement-first-lign article {
     background-color: white;
     border-radius: 25px;
     margin: 10px
 }
 
-.hebergement-second-lign article{
+.hebergement-second-lign article {
     background-color: white;
     border-radius: 25px;
     margin: 10px
 }
 
-.hebergements img{
+.hebergements img {
     width: 250px;
     height: 180px;
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
 }
 
-.heberg p{
+.heberg p {
     text-align: left;
     padding-left: 15px;
 }
 
-.hebergements article:hover{
+.hebergements article:hover {
     transition: all 750ms;
     transition-timing-function: ease-in-out;
     transform: scale(1.3);
     box-shadow: 5px 5px 5px black;
 }
 
-.luxe-aside div:hover{
+.luxe-aside div:hover {
     transition: all 750ms;
     transition-timing-function: ease-in-out;
     transform: scale(1.3);
     box-shadow: 5px 5px 5px black;
-    
+
 }
 
-.luxe-aside{
+.luxe-aside {
     display: flex;
     flex-direction: column;
-   background-color: lightgray;
-   border-radius: 25px;
-   margin-left: 40px;
-   margin-bottom: 50px;
-   padding: 10px;
-   border: 1px white;
-   flex-wrap: wrap;
+    background-color: lightgray;
+    border-radius: 25px;
+    margin-left: 40px;
+    margin-bottom: 50px;
+    padding: 10px;
+    border: 1px white;
+    flex-wrap: wrap;
 }
 
-.luxe-aside h2{
+.luxe-aside h2 {
     font-size: 200%;
     font-weight: 800;
     text-align: center;
 }
 
-.luxe{
+.luxe {
     border: 1px white solid;
     background-color: white;
     border-radius: 25px;
     margin: 10px 0;
-    
+
 }
 
-.luxe-aside img{
+.luxe-aside img {
     width: 350px;
     height: 150px;
     border-radius: 25px;
     padding: 15px 0;
-    
-   
+
+
 }
 
-.footer{
+.footer {
     display: flex;
     justify-content: space-around;
     background-color: lightgray;
 }
-.footer h3{
+
+.footer h3 {
     text-align: center;
 }
-.footer ul{
+
+.footer ul {
     list-style: none;
 }
 
-@media screen and (min-width:1300px ){
-    .heb-luxe{
+@media screen and (min-width:1300px) {
+    .heb-luxe {
         display: flex;
+    }
 }
-}
-@media screen and (min-width:380px) and (max-width:1020px){
-    .filtres i{
+
+@media screen and (min-width:380px) and (max-width:1020px) {
+    .filtres i {
         display: none;
     }
-    .filtres span{
+
+    .filtres span {
         display: none;
     }
-    .search-filtre{
+
+    .search-filtre {
         vertical-align: middle;
     }
-    .filtres p{
-        font-size:10px;
+
+    .filtres p {
+        font-size: 10px;
         padding-right: 10px;
     }
-    .header-search-location i{
+
+    .header-search-location i {
         display: none;
     }
+
     .header-search-location input {
         margin-top: 20px;
         font-size: 10px;
     }
-    .header-search-location button{
+
+    .header-search-location button {
         display: none;
     }
-    .header{
+
+    .header {
         position: absolute;
         top: 0;
         left: 0;
     }
-    .header{
+
+    .header {
         font-size: 50%;
     }
-    .navbar{
+
+    .navbar {
         font-size: 10px;
         padding-left: 175px;
     }
-    .luxe-aside{
+
+    .luxe-aside {
         margin-right: 50px;
     }
-    .luxe-aside img{
+
+    .luxe-aside img {
         width: 280px;
     }
-    .footer{
+
+    .footer {
         font-size: 10px;
     }
 }
