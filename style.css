@@ -83,7 +83,7 @@ footer {
 .navbar-list li {
     padding: 5px 20px;
 }
-
+/* CSS SEARCHBAR */
 .header-search-location i {
     border: 1px grey solid;
     font-size: 18px;
@@ -117,7 +117,7 @@ footer {
     color: rgb(0, 132, 255);
     padding-top: 20px;
 }
-
+/* POLICE */
 .main .favoris {
     font-family: 'Montserrat', sans-serif;
 }
@@ -138,7 +138,7 @@ a {
     text-decoration: none;
     color: black;
 }
-
+/* FAVORIS CSS*/
 .favoris h2 {
     color: rgb(0, 132, 255);
     text-align: center;
@@ -199,7 +199,7 @@ a {
 .all-room p {
     padding-left: 15px;
 }
-
+/* NOS HEBERGEMENTS CSS*/
 .hebergements {
     margin: 50px 0;
 
@@ -262,7 +262,7 @@ a {
     transform: scale(1.3);
     box-shadow: 5px 5px 5px black;
 }
-
+/* Luxe aside CSS */
 .luxe-aside div:hover {
     transition: all 750ms;
     transition-timing-function: ease-in-out;
@@ -305,7 +305,7 @@ a {
 
 
 }
-
+/* Css Footer*/
 .footer {
     display: flex;
     justify-content: space-around;
@@ -325,7 +325,7 @@ a {
         display: flex;
     }
 }
-
+/* MEDIA QUERY EFFECTUE AVEC DIMENSION PIXEL 5*/
 @media screen and (min-width:380px) and (max-width:1020px) {
     .filtres i {
         display: none;
